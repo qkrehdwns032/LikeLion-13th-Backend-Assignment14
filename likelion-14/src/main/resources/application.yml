@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: prod
+
+api:
+  doc:
+    key: ${api.doc.key}
+    url: ${api.doc.url}
+
+server:
+  port: 8080
